@@ -1,7 +1,16 @@
 /*--------------------- Custom Properties ------------------------------*/
 :root {
+    --primario: #1073bA;
+    --secundario: #00DA55;
+    --gris: #3B3B3B;
+    --negro: #1F1F1F;
+    --grisClaro: #E1E1E1;
+    --blanco: #FFFFFF;
+
     --fuentePrincipal: "Roboto", sans-serif;
     --fuenteSecundaria: "Lato", sans-serif;
+
+    --separacion: 5rem;
 }
 
 /*--------------------- Globales -----------------------------------------*/
