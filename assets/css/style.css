@@ -1,0 +1,10 @@
+/*--------------------- Custom Properties ------------------------------*/
+:root {
+    --fuentePrincipal: "Roboto", sans-serif;
+    --fuenteSecundaria: "Lato", sans-serif;
+}
+
+/*--------------------- Globales -----------------------------------------*/
+body {
+    font-family: var(--fuentePrincipal);
+}
