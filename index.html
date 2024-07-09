@@ -12,6 +12,33 @@
     <link rel="stylesheet" href="assets/css/style.css">
 </head>
 <body>
-    
+    <header class="header">
+        <div class="container contenido_header">
+            <div class="imagen_header">
+                <picture>
+                    <source
+                         sizes="1920w" 
+                         srcset="assets/img/header.avif 1920w" 
+                         type="image/avif">
+                    <source
+                         sizes="1920w" 
+                         srcset="assets/img/header.webp 1920w"
+                         type="image/webp">
+                    <source
+                         sizes="1920w" 
+                         srcset="assets/img/header.jpg 1920w" 
+                         type="image/jpeg">
+                    <img loading="lazy" decoding="async" src="assets/img/header.jpg" lazyalt="imagen" width="1000" height="500">
+                </picture>
+            </div>
+
+            <div class="texto_header">
+                <p class="tag_line_producto">Sonido profesional</p>
+                <h1 class="nombre_producto">TechPro</h1>
+                <p class="descripcion_producto">Lorem ipsum dolor sit amet consectetur adipisicing elit. Nemo rerum sint blanditiis cupiditate harum error?</p>
+                <p class="precio_producto">Desde <span>$299</span></p>
+            </div>
+        </div>
+    </header>
 </body>
 </html>
