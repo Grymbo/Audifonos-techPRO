@@ -47,6 +47,7 @@ h3 {
 img {
     max-width: 100%;
     display: block;
+    height: auto;
 }
 
 /*--------------------------------- Utilidades ----------------------------------*/
@@ -57,4 +58,17 @@ img {
 }
 .text-center {
     text-align: center;
+}
+
+/*-------------------------- Header -------------------------------------*/
+.header {
+    background-color: var(--negro);
+    padding: calc(var(--separacion)*3) 0;
+    color: var(--blanco);
+}
+@media (min-width: 768px){
+    .contenido_header {
+        display: grid;
+        grid-template-columns: repeat(2, 1fr);
+    }
 }
