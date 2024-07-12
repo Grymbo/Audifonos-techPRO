@@ -152,10 +152,30 @@ img {
     background-repeat: repeat, no-repeat;
     background-size: 100%, 110rem;
 }
+@media (min-width: 768px){
+    .sobre_tech {
+        background-image: linear-gradient(to left, transparent 50%, var(--primario) 0%), url(../img/imagen-mujer.jpg);
+        background-repeat: repeat, no-repeat;
+    }
+}
 .sobre_tech_grid {
     display: grid;
     grid-template-rows: repeat(2, 40rem);
     row-gap: var(--separacion);
+}
+@media (min-width: 768px){
+    .sobre_tech_grid {
+        grid-template-rows: unset;
+        row-gap: unset;
+        grid-template-columns: repeat(2, 1fr);
+        column-gap: 2rem;
+        padding: calc(var(--separacion) * 2);
+    }
+}
+@media (min-width: 1600px){
+    .sobre_tech {
+        background-size: 100%, 190rem;
+    }
 }
 .texto_sobre_tech {
     grid-row: 2 / 3;
