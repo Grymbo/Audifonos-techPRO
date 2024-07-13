@@ -24,3 +24,6 @@
 ![Garantia](assets/img/icono-garantia.svg)
 ![Bateria](assets/img/icono-bateria.svg)
 ![AudifonosBlancos](assets/img/imagen-mujer.jpg)
+![Aufinos x](assets/img/modelo-x.svg)
+![Aufinos y](assets/img/modelo-y.svg)
+![Aufinos z](assets/img/modelo-z.svg)

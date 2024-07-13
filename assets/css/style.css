@@ -191,3 +191,55 @@ img {
     font-size: 2rem;
     line-height: 2;
 }
+
+/*-------------------------------------- Modelos -------------------------------------*/
+.modelos {
+    padding: var(--separacion) 0;
+}
+.header_modelos {
+    font-size: 6rem;
+    margin-bottom: var(--separacion);
+}
+.listado_modelos {
+    display: flex;
+    flex-direction: column-reverse;
+}
+.modelo {
+    background-color: var(--grisClaro);
+    margin-bottom: 2rem;
+    padding-left: 4rem;
+    border-radius: 2rem;
+    color: var(--primario);
+    min-height: 20rem;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    background-repeat: no-repeat;
+    background-position: 90% center;
+    background-size: 15rem;
+}
+.modelo h3 {
+    font-size: 2.4rem;
+}
+.modelo .precio {
+    font-size: 4rem;
+    font-weight: 900;
+    line-height: 0;
+}
+.modelo:first-of-type {
+    margin-bottom: 0;
+}
+.modelo_z {
+    background-color: var(--primario);
+    color: var(--blanco);
+    background-image: url(../img/modelo-z.svg);
+}
+.modelo_x {
+    background-image: url(../img/modelo-x.svg);
+}
+.modelo_y {
+    background-image: url(../img/modelo-y.svg);
+}
+.modelo_z .precio {
+    font-size: 6rem;    
+}
